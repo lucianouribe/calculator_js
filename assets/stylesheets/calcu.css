@@ -1,0 +1,55 @@
+body {
+  background-color: #fff;
+}
+
+.container {
+  margin: 30px auto;
+  width: 400px;
+  height: 314px;
+  background-color: #404040;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+.screen {
+  color: #fff;
+  height: 60px;
+  border-radius: 5px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+sup {
+    vertical-align: super;
+    font-size: smaller;
+}
+
+#show-history {
+  visibility: none;
+}
+#history-button {
+  border-bottom-left-radius: 5px;
+}
+#history-button {
+  border-bottom-right-radius: 5px;
+}
+.card-container {
+  padding: 10px;
+}
+.num {
+ background-color: #FD9729;
+}
+.ope {
+  background-color: #878787;
+}
+.esp {
+  background-color: #4B4B4B;
+}
+.btn {
+  border: 0.5px solid #404040;
+}
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}

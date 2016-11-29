@@ -1,0 +1,59 @@
+<html>
+  <head>
+    <title>EggAdder2000</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+    <link href="assets/stylesheets/calcu.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row ">
+        <div class="col m12 screen center">
+          <h4 id="screen"></h4>
+        </div>
+        <div class="col s12 m12 offset-s1 center">
+          <div id="ac-button" class="col m2 btn red">AC</div>
+          <div class="col m2 calcu-button btn ope">(</div>
+          <div class="col m2 calcu-button btn ope">)</div>
+          <div id="plusminus-button" class="col m2 btn ope">+/-</div>
+          <div id="percentage-button" class="col m2 btn ope">%</div>
+          <div id="sine-button" class="col m2 btn esp">sin</div>
+          <div id="m-clear-button" class="col m2 btn esp">Mc</div>
+          <div class="col m2 calcu-button btn num">1</div>
+          <div class="col m2 calcu-button btn num">2</div>
+          <div class="col m2 calcu-button btn num">3</div>
+          <div class="col m2 calcu-button btn ope">/</div>
+          <div id="cosine-button" class="col m2 btn esp">cos</div>
+          <div id="m-plus-button" class="col m2 btn esp">M +</div>
+          <div class="col m2 calcu-button btn num">4</div>
+          <div class="col m2 calcu-button btn num">5</div>
+          <div class="col m2 calcu-button btn num">6</div>
+          <div class="col m2 calcu-button btn ope">*</div>
+          <div id="tangent-button" class="col m2 btn esp">tan</div>
+          <div id="m-minus-button" class="col m2 btn esp">M -</div>
+          <div class="col m2 calcu-button btn num">7</div>
+          <div class="col m2 calcu-button btn num">8</div>
+          <div class="col m2 calcu-button btn num">9</div>
+          <div class="col m2 calcu-button btn ope">-</div>
+          <div id="pi-button" class="col m2 btn esp">&#928;</div>
+          <div id="m-rec-button" class="col m2 btn esp">Mr</div>
+          <div id="cero" class="col m4 calcu-button btn num">0</div>
+          <div class="col m2 calcu-button btn num">.</div>
+          <div class="col m2 calcu-button btn ope">+</div>
+          <div id="root-button" class="col m2 btn esp">&#8730;</div>
+          <div id="equal-button" class="col m10 btn esp">=</div>
+          <div id="power-button" class="col m2 btn esp">x<sup>2</sup></div>
+          <div id="history-button" class="col m12 btn red">history</div>
+        </div>
+      </div>
+      <section id="show-history" class="card center">
+        <div class="card-container">
+          <h5>History</h5>
+          <ul id="history-list">
+          </ul>
+        </div>
+      </section>
+    </div>
+    <script src='assets/javascripts/calcu.js'></script>
+  </body>
+</html>
