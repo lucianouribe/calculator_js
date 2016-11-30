@@ -27,7 +27,7 @@ sup {
 }
 
 #show-history {
-  visibility: none;
+  display: none;
 }
 #history-button {
   border-bottom-left-radius: 5px;
